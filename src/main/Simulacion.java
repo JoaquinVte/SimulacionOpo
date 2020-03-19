@@ -1,14 +1,11 @@
 package main;
 
-import java.awt.Color;
-import java.awt.Component;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
 
-import javax.swing.JTable;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
@@ -102,7 +99,7 @@ public class Simulacion implements ActionListener {
 
 		for (int j = 0; j < iteraciones; j++) {
 
-			Vector v = new Vector();
+			Vector<Object> v = new Vector<Object>();
 			
 			v.add(j+1);
 
